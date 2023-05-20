@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1><strong>Formulario de registro</strong></h1>
+    <form>
+        <div>
+            <label>
+                Nombre: *
+            </label>
+            <input type="text" name="nombreUsuario">
+        </div>
+        <div>
+            <label>
+                Apellido: *
+            </label>
+            <input type="text" name="apellidoUsuario">
+        </div>
+        <div>
+            <label>
+                Correo electrónico: *
+            </label>
+            <input type="text" name="apellidoUsuario">
+        </div>
+        <div>
+            <label>
+                Contraseña: *
+            </label>
+            <input type="password" name="passwordUsuario">
+        </div>
+        <div>
+            <label>
+                Confirmar contraseña: *
+            </label>
+            <input type="password" name="passwordUsuario">
+        </div>
+    </form>
+    <div>
+        <label>
+            Fecha de nacimiento:
+        </label>
+        <input type="date" name="dobUsuario">
+    </div>
+    <div>
+        Género con el que se identifica:
+    </div>
+    <div> 
+        <label>Mujer</label>
+        <input type="radio" name="generoUsuario">
+        <label>Hombre</label>
+        <input type="radio" name="generoUsuario">
+        <label>No binario</label>
+        <input type="radio" name="generoUsuario">
+        <label>Prefiero no responder</label>
+        <input type="radio" name="generoUsuario">
+    </div>
+    <div>
+        Escriba una breve descripción de su persona:
+    </div>
+    <div><textarea></textarea>
+    </div>
+    <div>
+        <label>
+            Lenguaje de programación favorito:
+        </label>
+        <select name="lenguaje">
+            <option>
+                Javascript
+            </option>
+            <option>
+                Python
+            </option>
+            <option>
+                JAVA
+            </option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox">
+        Sí, me gustaría recibir actualizaciones periódicas en su correo
+    </div>
+    <div>
+        <input type="submit" value="Crear cuenta">
+    </div>
+    <div>
+        *Campos requeridos
+    </div>
+</body>
+</html>
